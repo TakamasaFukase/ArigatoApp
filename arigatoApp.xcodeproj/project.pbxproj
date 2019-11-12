@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		674A6524230B230A00AEC496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A6523230B230A00AEC496 /* AppDelegate.swift */; };
+		674A6526230B230A00AEC496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A6525230B230A00AEC496 /* ViewController.swift */; };
+		674A6529230B230A00AEC496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674A6527230B230A00AEC496 /* Main.storyboard */; };
+		674A652B230B230B00AEC496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 674A652A230B230B00AEC496 /* Assets.xcassets */; };
+		674A652E230B230B00AEC496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674A652C230B230B00AEC496 /* LaunchScreen.storyboard */; };
+		674A6539230B230B00AEC496 /* arigatoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A6538230B230B00AEC496 /* arigatoAppTests.swift */; };
+		674A6544230B230B00AEC496 /* arigatoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A6543230B230B00AEC496 /* arigatoAppUITests.swift */; };
+		674A6552230EC9EF00AEC496 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A6551230EC9EF00AEC496 /* ViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		674A6535230B230B00AEC496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 674A6518230B230900AEC496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674A651F230B230A00AEC496;
+			remoteInfo = arigatoApp;
+		};
+		674A6540230B230B00AEC496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 674A6518230B230900AEC496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674A651F230B230A00AEC496;
+			remoteInfo = arigatoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		674A6520230B230A00AEC496 /* arigatoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arigatoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		674A6523230B230A00AEC496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		674A6525230B230A00AEC496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		674A6528230B230A00AEC496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		674A652A230B230B00AEC496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		674A652D230B230B00AEC496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		674A652F230B230B00AEC496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		674A6534230B230B00AEC496 /* arigatoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arigatoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		674A6538230B230B00AEC496 /* arigatoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arigatoAppTests.swift; sourceTree = "<group>"; };
+		674A653A230B230B00AEC496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		674A653F230B230B00AEC496 /* arigatoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arigatoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		674A6543230B230B00AEC496 /* arigatoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arigatoAppUITests.swift; sourceTree = "<group>"; };
+		674A6545230B230B00AEC496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		674A6551230EC9EF00AEC496 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		674A651D230B230A00AEC496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674A6531230B230B00AEC496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674A653C230B230B00AEC496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		674A6517230B230900AEC496 = {
+			isa = PBXGroup;
+			children = (
+				674A6522230B230A00AEC496 /* arigatoApp */,
+				674A6537230B230B00AEC496 /* arigatoAppTests */,
+				674A6542230B230B00AEC496 /* arigatoAppUITests */,
+				674A6521230B230A00AEC496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		674A6521230B230A00AEC496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				674A6520230B230A00AEC496 /* arigatoApp.app */,
+				674A6534230B230B00AEC496 /* arigatoAppTests.xctest */,
+				674A653F230B230B00AEC496 /* arigatoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		674A6522230B230A00AEC496 /* arigatoApp */ = {
+			isa = PBXGroup;
+			children = (
+				674A6523230B230A00AEC496 /* AppDelegate.swift */,
+				674A6525230B230A00AEC496 /* ViewController.swift */,
+				674A6551230EC9EF00AEC496 /* ViewController2.swift */,
+				674A6527230B230A00AEC496 /* Main.storyboard */,
+				674A652A230B230B00AEC496 /* Assets.xcassets */,
+				674A652C230B230B00AEC496 /* LaunchScreen.storyboard */,
+				674A652F230B230B00AEC496 /* Info.plist */,
+			);
+			path = arigatoApp;
+			sourceTree = "<group>";
+		};
+		674A6537230B230B00AEC496 /* arigatoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				674A6538230B230B00AEC496 /* arigatoAppTests.swift */,
+				674A653A230B230B00AEC496 /* Info.plist */,
+			);
+			path = arigatoAppTests;
+			sourceTree = "<group>";
+		};
+		674A6542230B230B00AEC496 /* arigatoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				674A6543230B230B00AEC496 /* arigatoAppUITests.swift */,
+				674A6545230B230B00AEC496 /* Info.plist */,
+			);
+			path = arigatoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		674A651F230B230A00AEC496 /* arigatoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674A6548230B230B00AEC496 /* Build configuration list for PBXNativeTarget "arigatoApp" */;
+			buildPhases = (
+				674A651C230B230A00AEC496 /* Sources */,
+				674A651D230B230A00AEC496 /* Frameworks */,
+				674A651E230B230A00AEC496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arigatoApp;
+			productName = arigatoApp;
+			productReference = 674A6520230B230A00AEC496 /* arigatoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		674A6533230B230B00AEC496 /* arigatoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674A654B230B230B00AEC496 /* Build configuration list for PBXNativeTarget "arigatoAppTests" */;
+			buildPhases = (
+				674A6530230B230B00AEC496 /* Sources */,
+				674A6531230B230B00AEC496 /* Frameworks */,
+				674A6532230B230B00AEC496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				674A6536230B230B00AEC496 /* PBXTargetDependency */,
+			);
+			name = arigatoAppTests;
+			productName = arigatoAppTests;
+			productReference = 674A6534230B230B00AEC496 /* arigatoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		674A653E230B230B00AEC496 /* arigatoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674A654E230B230B00AEC496 /* Build configuration list for PBXNativeTarget "arigatoAppUITests" */;
+			buildPhases = (
+				674A653B230B230B00AEC496 /* Sources */,
+				674A653C230B230B00AEC496 /* Frameworks */,
+				674A653D230B230B00AEC496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				674A6541230B230B00AEC496 /* PBXTargetDependency */,
+			);
+			name = arigatoAppUITests;
+			productName = arigatoAppUITests;
+			productReference = 674A653F230B230B00AEC496 /* arigatoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		674A6518230B230900AEC496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = fukase;
+				TargetAttributes = {
+					674A651F230B230A00AEC496 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					674A6533230B230B00AEC496 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 674A651F230B230A00AEC496;
+					};
+					674A653E230B230B00AEC496 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 674A651F230B230A00AEC496;
+					};
+				};
+			};
+			buildConfigurationList = 674A651B230B230900AEC496 /* Build configuration list for PBXProject "arigatoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 674A6517230B230900AEC496;
+			productRefGroup = 674A6521230B230A00AEC496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				674A651F230B230A00AEC496 /* arigatoApp */,
+				674A6533230B230B00AEC496 /* arigatoAppTests */,
+				674A653E230B230B00AEC496 /* arigatoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		674A651E230B230A00AEC496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674A652E230B230B00AEC496 /* LaunchScreen.storyboard in Resources */,
+				674A652B230B230B00AEC496 /* Assets.xcassets in Resources */,
+				674A6529230B230A00AEC496 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674A6532230B230B00AEC496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674A653D230B230B00AEC496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		674A651C230B230A00AEC496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674A6526230B230A00AEC496 /* ViewController.swift in Sources */,
+				674A6524230B230A00AEC496 /* AppDelegate.swift in Sources */,
+				674A6552230EC9EF00AEC496 /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674A6530230B230B00AEC496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674A6539230B230B00AEC496 /* arigatoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674A653B230B230B00AEC496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674A6544230B230B00AEC496 /* arigatoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		674A6536230B230B00AEC496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 674A651F230B230A00AEC496 /* arigatoApp */;
+			targetProxy = 674A6535230B230B00AEC496 /* PBXContainerItemProxy */;
+		};
+		674A6541230B230B00AEC496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 674A651F230B230A00AEC496 /* arigatoApp */;
+			targetProxy = 674A6540230B230B00AEC496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		674A6527230B230A00AEC496 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				674A6528230B230A00AEC496 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		674A652C230B230B00AEC496 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				674A652D230B230B00AEC496 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		674A6546230B230B00AEC496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		674A6547230B230B00AEC496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		674A6549230B230B00AEC496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37MFDT4LMQ;
+				INFOPLIST_FILE = arigatoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fukase.arigatoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		674A654A230B230B00AEC496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37MFDT4LMQ;
+				INFOPLIST_FILE = arigatoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fukase.arigatoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		674A654C230B230B00AEC496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYD4R2QLW8;
+				INFOPLIST_FILE = arigatoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fukase.arigatoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arigatoApp.app/arigatoApp";
+			};
+			name = Debug;
+		};
+		674A654D230B230B00AEC496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYD4R2QLW8;
+				INFOPLIST_FILE = arigatoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fukase.arigatoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arigatoApp.app/arigatoApp";
+			};
+			name = Release;
+		};
+		674A654F230B230B00AEC496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYD4R2QLW8;
+				INFOPLIST_FILE = arigatoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fukase.arigatoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = arigatoApp;
+			};
+			name = Debug;
+		};
+		674A6550230B230B00AEC496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYD4R2QLW8;
+				INFOPLIST_FILE = arigatoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fukase.arigatoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = arigatoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		674A651B230B230900AEC496 /* Build configuration list for PBXProject "arigatoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674A6546230B230B00AEC496 /* Debug */,
+				674A6547230B230B00AEC496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		674A6548230B230B00AEC496 /* Build configuration list for PBXNativeTarget "arigatoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674A6549230B230B00AEC496 /* Debug */,
+				674A654A230B230B00AEC496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		674A654B230B230B00AEC496 /* Build configuration list for PBXNativeTarget "arigatoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674A654C230B230B00AEC496 /* Debug */,
+				674A654D230B230B00AEC496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		674A654E230B230B00AEC496 /* Build configuration list for PBXNativeTarget "arigatoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674A654F230B230B00AEC496 /* Debug */,
+				674A6550230B230B00AEC496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 674A6518230B230900AEC496 /* Project object */;
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="arigatoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0s-a6-KYB">
+                                <rect key="frame" x="71" y="340" width="233" height="133"/>
+                                <color key="backgroundColor" red="0.83772786458333337" green="0.58873622105102186" blue="0.21524875575255459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="25"/>
+                                <state key="normal" title="子リスくんを呼ぶ">
+                                    <color key="titleColor" red="0.44383029997380963" green="0.31567945387003088" blue="0.17181940847849972" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uNP-C2-eZ7" kind="modal" id="MgU-pK-6cf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95247395833333337" green="0.80000572734103337" blue="0.57130338085258325" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="D0s-a6-KYB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GUb-84-ovp"/>
+                            <constraint firstItem="D0s-a6-KYB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="71" id="mBh-yl-e9i"/>
+                            <constraint firstItem="D0s-a6-KYB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vaj-oq-BRi"/>
+                            <constraint firstItem="D0s-a6-KYB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="296" id="w2L-q5-DDx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="goNextButton" destination="D0s-a6-KYB" id="QYB-LZ-AnY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.40000000000001" y="116.00985221674877"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="L6T-tk-pku">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="uNP-C2-eZ7" customClass="ViewController2" customModule="arigatoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="axB-8j-Lx3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zaq-me-pjU">
+                                <rect key="frame" x="20" y="81" width="335" height="335"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oqm-oo-OAL">
+                                <rect key="frame" x="71" y="547" width="233" height="172"/>
+                                <color key="backgroundColor" red="1" green="0.56546742928046601" blue="0.41196456233333323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="172" id="6UM-Ps-jgg"/>
+                                </constraints>
+                                <state key="normal" image="arigatoButtonImg2">
+                                    <color key="titleColor" red="0.4391102479166667" green="0.31232226205427382" blue="0.16999214128312112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="arigatoButton:" destination="uNP-C2-eZ7" eventType="touchUpInside" id="oM3-ug-cQw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nrl-pL-opb">
+                                <rect key="frame" x="20" y="424" width="335" height="102"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="YdC-Pg-Ku7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95247395830000003" green="0.80000572729999997" blue="0.57130338089999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Zaq-me-pjU" firstAttribute="top" secondItem="L1f-fs-oNy" secondAttribute="top" constant="37" id="067-Bj-x5o"/>
+                            <constraint firstItem="Zaq-me-pjU" firstAttribute="leading" secondItem="L1f-fs-oNy" secondAttribute="leading" constant="20" id="3Bj-eJ-brA"/>
+                            <constraint firstItem="Zaq-me-pjU" firstAttribute="leading" secondItem="nrl-pL-opb" secondAttribute="leading" id="3bA-iW-7gn"/>
+                            <constraint firstItem="Oqm-oo-OAL" firstAttribute="leading" secondItem="L1f-fs-oNy" secondAttribute="leading" constant="71" id="CJa-mA-Er4"/>
+                            <constraint firstItem="Zaq-me-pjU" firstAttribute="centerX" secondItem="axB-8j-Lx3" secondAttribute="centerX" id="L64-D0-c5Z"/>
+                            <constraint firstItem="nrl-pL-opb" firstAttribute="centerX" secondItem="Oqm-oo-OAL" secondAttribute="centerX" id="OdF-h4-bFG"/>
+                            <constraint firstItem="L1f-fs-oNy" firstAttribute="bottom" secondItem="Oqm-oo-OAL" secondAttribute="bottom" constant="59" id="Sxh-3C-NAX"/>
+                            <constraint firstItem="nrl-pL-opb" firstAttribute="top" secondItem="Zaq-me-pjU" secondAttribute="bottom" constant="8" symbolic="YES" id="UaB-bX-fbn"/>
+                            <constraint firstItem="Zaq-me-pjU" firstAttribute="trailing" secondItem="nrl-pL-opb" secondAttribute="trailing" id="kw5-MI-HhV"/>
+                            <constraint firstItem="Oqm-oo-OAL" firstAttribute="top" secondItem="nrl-pL-opb" secondAttribute="bottom" constant="21" id="w5S-rZ-DWb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="L1f-fs-oNy"/>
+                    </view>
+                    <connections>
+                        <outlet property="arigatoButton" destination="Oqm-oo-OAL" id="HSR-Sr-71x"/>
+                        <outlet property="imageView1" destination="Zaq-me-pjU" id="Jlt-uW-1z1"/>
+                        <outlet property="label1" destination="nrl-pL-opb" id="OBj-Mg-uLw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ftG-On-KJg" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="872.79999999999995" y="116.00985221674877"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arigatoButtonImg2" width="696" height="520"/>
+    </resources>
+</document>
